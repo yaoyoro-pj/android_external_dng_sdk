@@ -167,6 +167,7 @@ cc_library {
     host_supported: true,
     sdk_version: "current",
     defaults: ["libdng_sdk-defaults"],
+    vendor_available: true,
 
     sanitize: {
         // For now we want to disable the ubsan_minimal runtime so that we can
